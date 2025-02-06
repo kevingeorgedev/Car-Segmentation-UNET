@@ -44,7 +44,13 @@ To evaluate the model I took the dice score, intersection over union score, and 
 
 ## Results
 
-![alt text](AppliedMask.png "UNET")
+Side by side of a test image vs. its predicted mask:
+
+![alt text](image_vs_pred.png "Image vs Predicted Mask")
+
+Mask applied over the test image:
+
+![alt text](AppliedMask.png "Applied Mask")
 
 | Metric     | Value  |
 |------------|--------|
