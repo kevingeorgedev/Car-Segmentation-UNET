@@ -20,11 +20,10 @@ The U-Net architecture is a type of convolutional neural network (CNN) used for 
 - **Data Augmentation**: Built-in data augmentation for better generalization.
 
 ## Requirements
+- ipykernel==6.29.5
 - kaggle==1.6.17
 - matplotlib==3.10.0
-- torchaudio==2.6.0+cu118
-- torchvision==0.21.0+cu118
-- Other dependencies (see `requirements.txt`)
+- Other dependencies (see [Installation](#installation))
 
 ## Installation
 Clone this repository and install requirements
