@@ -32,7 +32,7 @@ Clone this repository and install requirements
 git clone https://github.com/yourusername/unet-image-segmentation.git
 cd unet-image-segmentation
 
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
