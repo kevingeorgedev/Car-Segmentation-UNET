@@ -40,7 +40,12 @@ In addition to requirements.txt, you must install PyTorch from their [website](h
 After installing the repository and setting up your environment, you can use the model to perform image segmentation.
 
 ## Evaluation
-To evaluate the model I took the dice score, intersection over union score, and accuracy of the model. The metric tests are shown under [Results](#results) and were taken after 3 epochs.
+To evaluate the model I took the dice score, intersection over union score, and accuracy of the model. The metric tests are shown below and were taken after 3 epochs.
+| Metric     | Value  |
+|------------|--------|
+| IoU        | ~0.975 |
+| Dice Score | ~0.987 |
+| Accuracy   | ~99.5% |
 
 ## Results
 
@@ -51,9 +56,3 @@ Side by side of a test image vs. its predicted mask:
 Mask applied over a test image:
 
 ![alt text](AppliedMask.png "Applied Mask")
-
-| Metric     | Value  |
-|------------|--------|
-| IoU        | ~0.975 |
-| Dice Score | ~0.987 |
-| Accuracy   | ~99.5% |
