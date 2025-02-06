@@ -34,17 +34,20 @@ cd unet-image-segmentation
 
 pip install -r requirements.txt
 ```
+In addition to requirements.txt, you must install PyTorch from their [website](https://pytorch.org/get-started/locally/).
 
 ## Usage
 After installing the repository and setting up your environment, you can use the model to perform image segmentation.
 
 ## Evaluation
-To evaluate the model I used the dice score metric. After 10 epochs, the model had a dice score of $0.87$ and an accuracy of $94.61$%. If trained for longer, the model should perform better considering these tests were performed after only training for 10 epochs.
+To evaluate the model I took the dice score, intersection over union score, and accuracy of the model. The metric tests are shown under [Results](#results) and were taken after 3 epochs.
 
 ## Results
 
+![alt text](AppliedMask.png "UNET")
+
 | Metric     | Value  |
 |------------|--------|
-| IoU        | ~0.627 |
-| Dice Score | ~0.876 |
-| Accuracy   | ~94.7% |
+| IoU        | ~0.975 |
+| Dice Score | ~0.987 |
+| Accuracy   | ~99.5% |
