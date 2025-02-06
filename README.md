@@ -45,6 +45,6 @@ To evaluate the model I used the dice score metric. After 10 epochs, the model h
 
 | Metric     | Value  |
 |------------|--------|
-| IoU        | 0.627  |
-| Dice Score | 0.876  |
-| Accuracy   | 94.74% |
+| IoU        | ~0.627 |
+| Dice Score | ~0.876 |
+| Accuracy   | ~94.7% |
