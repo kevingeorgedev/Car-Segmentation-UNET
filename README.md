@@ -28,8 +28,8 @@ The U-Net architecture is a type of convolutional neural network (CNN) used for 
 ## Installation
 Clone this repository and install requirements
 ```bash
-git clone https://github.com/yourusername/unet-image-segmentation.git
-cd unet-image-segmentation
+git clone https://github.com/kevingeorgedev/Car-Segmentation-UNET.git
+cd Car-Segmentation-UNET
 
 pip install -r requirements.txt
 ```
